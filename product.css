@@ -39,3 +39,32 @@
   object-fit: contain;
   padding-top: 4px;
 }
+
+.pricing-page {
+  display: flex;
+  align-items: center;
+  font-family: 'Source Sans Pro', Arial;
+  font-size: 24px;
+  color: #2E1114;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+.pricing-left-side,
+.pricing-right-side {
+  flex: 1;
+}
+
+.pricing-type {
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.pricing-additional-info {
+  font-family: 'Source Sans Pro', Arial;
+  font-size: 22px;
+  color: #2E1114;
+  text-align: center;
+  line-height: 34px;
+}
