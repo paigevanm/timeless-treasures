@@ -1,0 +1,23 @@
+.about-me-flex {
+  display: flex;
+  margin-top: 220px;
+  align-items: center;
+}
+
+.pic-box {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.danna-pic {
+  width: 500px;
+}
+
+.about-me-text {
+  flex: 1;
+  font-family: 'Source Sans Pro', Arial;
+  font-size: 26px;
+  color: #2E1114;
+}
+

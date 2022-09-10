@@ -1,0 +1,41 @@
+.product-page-grid {
+  display: grid;
+  grid-template-columns: 350px 350px;
+  column-gap: 35px;
+  row-gap: 30px;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.midpage-product-bar {
+  height: 100px;
+  background-color: #64485C;
+  margin-top: 225px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-title {
+  font-family: 'Source Sans Pro', Arial;
+  font-size: 54px;
+  color: #2E1114;
+}
+
+.product-container {
+  border: none;
+  margin: 0;
+  background-color: #2E1114;
+  border-style: solid;
+  border-width: 6px;
+  border-color: #2E1114;
+  cursor: pointer;
+}
+
+.wide-product-pic {
+  width: 100%;
+  aspect-ratio: 9/12;
+  margin: 0;
+  object-fit: contain;
+  padding-top: 4px;
+}
