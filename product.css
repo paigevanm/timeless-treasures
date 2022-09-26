@@ -4,7 +4,7 @@
   column-gap: 35px;
   row-gap: 30px;
   justify-content: center;
-  margin-top: 25px;
+  margin-top: 3%;
 }
 
 .midpage-product-bar {
@@ -75,10 +75,11 @@
 
 .gifts-info {
   font-family: 'Source Sans Pro', Arial;
-  font-size: 22px;
+  font-size: 36px;
   color: #2E1114;
   text-align: center;
-  line-height: 40px;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 @media (max-width: 800px) {
