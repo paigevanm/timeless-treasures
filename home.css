@@ -63,7 +63,7 @@
 
 .end-bar {
   margin-top: 25px;
-  height: 50px;
+  height: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -82,7 +82,7 @@
   font-family: 'Source Sans Pro', Arial;
   color: #83677b;
   background-color: #2E1114;
-  font-size: 30px;
+  font-size: 40px;
   border: none;
   cursor: pointer;
 }
