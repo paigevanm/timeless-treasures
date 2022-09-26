@@ -43,7 +43,8 @@
 }
 
 .pricing-page {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
   font-family: 'Source Sans Pro', Arial;
   font-size: 24px;
@@ -61,6 +62,7 @@
 .pricing-type {
   font-weight: bold;
   font-size: 26px;
+  margin: 2%;
 }
 
 .pricing-additional-info {
@@ -88,5 +90,9 @@
   }
   .product-page-grid {
     grid-template-columns: 350px;
+  }
+
+  .pricing-page {
+    grid-template-columns: 1fr;
   }
 }

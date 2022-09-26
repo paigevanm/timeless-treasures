@@ -27,8 +27,7 @@
 
 .text {
   font-size: 38px;
-  position: absolute;
-  top: 200px;
+  margin-top: 200px;
   padding-top: 50px;
   padding-bottom: 50px;
   text-align: center;
@@ -42,7 +41,6 @@
   padding-bottom: 30px;
 }
 
-.text-background, 
 .product-button-text-background {
   background-color: #ADADAD;
   opacity: .8;
@@ -99,7 +97,7 @@
   column-gap: 35px;
   row-gap: 30px;
   justify-content: center;
-  margin-top: 25px;
+  margin-top: 3%;
 }
 
 .product-block {
@@ -171,7 +169,6 @@
   .product-grid {
     grid-template-columns: 350px;
   }
-
 }
 
 @media (max-width: 600px) {
