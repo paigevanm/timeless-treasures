@@ -1,5 +1,6 @@
 .about-me-flex {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr;
   margin-top: 220px;
   align-items: center;
 }
@@ -7,17 +8,18 @@
 .pic-box {
   display: flex;
   justify-content: center;
-  flex: 1;
 }
 
 .danna-pic {
-  width: 500px;
+  width: 450px;
 }
 
 .about-me-text {
-  flex: 1;
+  text-align: center;
   font-family: 'Source Sans Pro', Arial;
   font-size: 26px;
   color: #2E1114;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
