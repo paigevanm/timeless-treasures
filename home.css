@@ -60,6 +60,7 @@
   height: 25px;
   background-color: #2E1114;
   margin-top: 0;
+  width: 100%;
 }
 
 .end-bar {
@@ -169,6 +170,13 @@
 
   .product-grid {
     grid-template-columns: 350px;
+  }
+}
+
+@media (max-width: 450px) {
+  .background-pic, 
+  .background-pic-filter {
+    display: none;
   }
 }
 
