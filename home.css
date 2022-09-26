@@ -5,6 +5,7 @@
   position: fixed;
   top: 0;
   width: 100%;
+  max-width: 100%;
   align-items: center;
   justify-content: center;
   z-index: 99;
@@ -18,6 +19,7 @@
 
 .background-pic {
   width: 100%;
+  max-width: 100%;
   position: relative;
   z-index: 0;
   margin: 0;
@@ -118,6 +120,7 @@
 
 .product-pic {
   width: 100%;
+  max-width: 100%;
   aspect-ratio: 9/12;
   margin: 0;
   object-fit: cover;
@@ -163,5 +166,10 @@
   .main-text {
     font-size: 34px;
   }
+
+  .product-grid {
+    grid-template-columns: 350px;
+  }
 }
+
 
