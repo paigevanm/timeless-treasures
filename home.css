@@ -178,6 +178,10 @@
   .background-pic-filter {
     display: none;
   }
+
+  .product-block {
+    color: black;
+  }
 }
 
 
